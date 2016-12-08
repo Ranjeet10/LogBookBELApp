@@ -1,0 +1,54 @@
+body {
+	padding-top: 70px;
+	padding-bottom: 30px;
+}
+
+@font-face {
+	font-family: AeroliteFont;
+}
+
+.myFont-text {
+	font-family: AeroliteFont;
+	color: #2c2828;
+}
+
+.theme-dropdown .dropdown-menu {
+	position: static;
+	display: block;
+	margin-bottom: 20px;
+}
+
+.theme>p>.btn {
+	margin: 5px 0;
+}
+
+.theme .navbar .container {
+	width: auto;
+}
+
+.do-inline {
+	display: inline;
+}
+
+.btn {
+	font-size: 14px;
+}
+
+.navbar-brand {
+	font-size: 25px;
+}
+
+#addJobDetailsDiv td, #addMachineDiv td, #addEmployeeDiv td {
+	padding: 5px;
+}
+
+#loginDiv {
+    position: relative;
+    left: 35%;
+    border: 2px green solid;
+    width: 30%;
+    text-align: center;
+    padding: 30px;
+    background-color: azure;
+}
+}

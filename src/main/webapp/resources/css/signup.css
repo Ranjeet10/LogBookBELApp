@@ -1,0 +1,76 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+@font-face {
+    font-family: AeroliteFont;
+}
+.myFont-text{
+  font-family: AeroliteFont;
+  color: #2c2828;
+}
+.form-signup {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signup .form-signup-heading,
+.form-signup .checkbox {
+  margin-bottom: 10px;
+}
+.form-signup .checkbox {
+  font-weight: normal;
+}
+.form-signup .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signup .form-control:focus {
+  z-index: 2;
+}
+.form-signup .form-top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signup .form-mid {
+  margin-bottom: -1px;
+  border-radius: 0;
+}
+.form-signup .form-bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.form-signup .input-left{
+  padding-right: 0px;
+}
+.form-signup .input-right{
+  padding-left: 0px;
+  padding-right: 13px;
+  margin-left: -1px;
+}
+.form-signup .input-mid{
+  padding: 0px;
+  margin-left: -1px;
+}
+.form-signup .btn-right{
+  padding-left: 0px;
+}
+.form-signup .btn-left {
+  padding-right: 2px;
+}
+.form-signup .btn-right .btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signup .btn-left .btn {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
